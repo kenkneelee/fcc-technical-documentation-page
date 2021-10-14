@@ -57,6 +57,10 @@ a {
     padding:2%;
 }
 
+.main-section:hover {
+    background-color: rgba(126, 123, 123,0.5);
+    transition:1s;
+}
 
 
 @media (max-width:800px) {
