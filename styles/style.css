@@ -1,0 +1,13 @@
+#navbar {
+    position:fixed;
+    left:0;
+    width:30%;
+}
+
+
+@media (max-width:800px) {
+    main {
+        background-color:red;
+    }
+}
+
