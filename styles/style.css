@@ -1,5 +1,10 @@
 html, body {
     min-height:100%;
+    background-image:url(../images/background.jpg);
+    background-size:cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    font-family: 'Montserrat', sans-serif;
 }
 
 #navbar {
@@ -9,7 +14,19 @@ html, body {
     display:flex;
     flex-direction:column;
     border: 1px black solid;
+    border-radius:2fr;
     height:97%;
+    font-family: 'Montserrat', sans-serif;
+    color:white;
+}
+
+h1 {
+    padding-left:10%;
+    padding-top:5%;
+}
+
+.nav-link {
+    padding-left:10%;
 }
 
 #main-doc {
@@ -18,18 +35,26 @@ html, body {
     width: 78%;
     text-align: justify;
     border: 1px black solid;
+    border-radius:2%;
+    overflow:hidden;
+    color:rgb(255, 255, 255);
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    font-family: 'Montserrat', sans-serif;
+
 
 }
 
 .main-section {
-    background-color: rgb(126, 123, 123);
+    background-color: rgba(126, 123, 123,0.4);
+    border-radius:1fr;
+    padding:2%;
 }
 
 
 
 @media (max-width:800px) {
     main {
-        background-color:red;
+        background-color:white;
     }
 }
 
