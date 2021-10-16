@@ -31,6 +31,11 @@ h1 {
     padding: 10% 0% 10% 10%;
 }
 
+.nav-link:hover {
+    background-color:gray;
+    transition:1s;
+}
+
 a {
     color:white;
     text-decoration: none;
@@ -66,6 +71,13 @@ a {
 @media (max-width:800px) {
     main {
         background-color:white;
+    }
+    html, body {
+        background-image:none;
+    }
+    #main-doc, #navbar, a {
+        color:black;
+        text-shadow: none;
     }
 }
 
