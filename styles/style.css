@@ -63,7 +63,7 @@ a {
     font-family: 'Montserrat', sans-serif;
 }
 
-.main-section {
+.main-section, h2 {
     background-color: rgba(126, 123, 123,0.2);
     border-radius:1fr;
     padding:2%;
